@@ -1,11 +1,11 @@
 
 export const COMPANY_NAME = "Phantom Assembly";
-export const COMPANY_LOGO_URL = "/images/logo.svg"; // Local logo
+export const COMPANY_LOGO_URL = "/Phantom-Assembly/images/logo.svg"; // Local logo
 export const COMPANY_SLOGAN = "Crafting the Future of Cloud & Operations";
 export const COMPANY_MISSION = "Empowering businesses with resilient, scalable, and secure cloud infrastructure and streamlined operations.";
 
 export const FOUNDER_NAME = "Ranjith V"; // Based on LinkedIn profile
-export const FOUNDER_IMAGE_URL = "/images/ranjith-profile.svg"; // Ranjith V's professional image
+export const FOUNDER_IMAGE_URL = "/Phantom-Assembly/images/ranjith-profile.svg"; // Ranjith V's professional image
 export const FOUNDER_DESCRIPTION = `As a passionate and results-driven Operations and Cloud Engineer, I specialize in architecting and implementing robust cloud solutions across AWS, Azure, and GCP. My expertise spans Kubernetes, Docker, CI/CD, Infrastructure as Code (Terraform), and Site Reliability Engineering (SRE) principles. I founded Phantom Assembly to leverage 'vibe coding' (my passion for efficient automation and coding) to build transformative digital infrastructures that empower businesses to scale securely and efficiently.`;
 
 export const SERVICES = [
@@ -57,25 +57,25 @@ export const PORTFOLIO_PROJECTS = [
   {
     title: "Serverless E-commerce Platform on AWS",
     description: "Architected and deployed a highly scalable and cost-efficient serverless e-commerce platform using AWS Lambda, DynamoDB, and API Gateway, reducing operational overhead by 40%.",
-    image: "/images/project1.svg", // Serverless architecture image
+    image: "/Phantom-Assembly/images/project1.svg", // Serverless architecture image
     tags: ["AWS", "Serverless", "DynamoDB", "API Gateway"]
   },
   {
     title: "Kubernetes Cluster Deployment for Microservices",
     description: "Designed and implemented a resilient Kubernetes cluster on Azure AKS for a complex microservices architecture, enhancing application resilience and developer velocity.",
-    image: "/images/project2.svg", // Kubernetes cluster image
+    image: "/Phantom-Assembly/images/project2.svg", // Kubernetes cluster image
     tags: ["Kubernetes", "Azure AKS", "Microservices", "Containerization"]
   },
   {
     title: "Automated CI/CD with GitLab & GCP",
     description: "Developed and managed a fully automated CI/CD pipeline for a SaaS application using GitLab CI, Docker, and Google Cloud Run, accelerating deployment frequency by 3x.",
-    image: "/images/project3.svg", // CI/CD pipeline image
+    image: "/Phantom-Assembly/images/project3.svg", // CI/CD pipeline image
     tags: ["GitLab CI", "GCP", "Cloud Run", "DevOps"]
   },
   {
     title: "Infrastructure as Code with Terraform & AWS",
     description: "Managed entire cloud infrastructure for a fintech startup using Terraform on AWS, achieving consistent deployments and reducing manual configuration errors by 90%.",
-    image: "/images/project4.svg", // Infrastructure as Code image
+    image: "/Phantom-Assembly/images/project4.svg", // Infrastructure as Code image
     tags: ["Terraform", "AWS", "IaC", "Automation"]
   }
 ];
